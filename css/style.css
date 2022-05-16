@@ -232,17 +232,17 @@ h5,
 ======================================*/
 
 /*======================
- Start scroll-top-arrow
+    Start scroll-top-arrow
 =======================*/
 .scroll-top-arrow {
     height: 40px;
     width: 40px;
     position: fixed;
     z-index: 111;
-    background-color: deeppink;
+    background-color: #241654;
     bottom: 10px;
     right: 20px;
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: linear-gradient(to right, #241654 -50%, #564286 93%) ;
     animation: 1s slideInRight ease;
     display: none;
 }
@@ -261,7 +261,7 @@ END scroll-top-arrow
 
 
 /*===================================
-         Social Icons BG colors
+        Social Icons BG colors
 ======================================*/
 .facebook-bg-hvr:hover{background:#4267B2 !important;color: #fff !important; border: 1px solid transparent !important;}
 .twitter-bg-hvr:hover{background:#1DA1F2 !important;color: #fff !important; border: 1px solid transparent !important;}
@@ -273,7 +273,7 @@ END scroll-top-arrow
 
 
 /*===================================
-         Button Classes
+        Button Classes
 ======================================*/
 
 /*Standard Black Button*/
@@ -484,30 +484,30 @@ END scroll-top-arrow
 /*color to gradient*/
 /*Slide 2 First Gradient Button*/
 .pink-color-gradient-btn{font-size: 12px;font-family: 'Poppins', sans-serif;padding: 10px 25px;border: solid 1px #FFFFFF;color: #000000;font-weight: 600;background-color: white;border-radius: 0;position: relative;z-index: 2;}
-.pink-color-gradient-btn:after {position: absolute;top: 0;left: 0;content: '';width: 100%;height: 100%;opacity: 0;color: #FFFFFF !important;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad));background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%);background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%);border: solid 1px transparent;z-index: -1;}
+.pink-color-gradient-btn:after {position: absolute;top: 0;left: 0;content: '';width: 100%;height: 100%;opacity: 0;color: #FFFFFF !important;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286));background: -o-linear-gradient(left, #241654 -50%, #564286 93%);background: linear-gradient(to right, #241654 -50%, #564286 93%);border: solid 1px transparent;z-index: -1;}
 .pink-color-gradient-btn:hover:after {opacity: 1;}
 .btn.pink-color-gradient-btn:hover{color: #FFFFFF;border:solid 1px transparent;}
 
 /*Slide 2 Gradient Button*/
 .trans-pink-color-gradient-btn{font-size: 12px;font-family: 'Poppins', sans-serif;padding: 10px 25px;border: solid 1px #000000;color: #000000;font-weight: 600;background-color: transparent;-webkit-transition: .3s ease-in-out !important;-o-transition: .3s ease-in-out !important;transition: .3s ease-in-out !important;border-radius: 0;position: relative;z-index: 2;}
-.trans-pink-color-gradient-btn:after {position: absolute;top: 0;left: 0;content: '';width: 100%;height: 100%;opacity: 0;color: #FFFFFF !important;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad));background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%);background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%);border: solid 1px transparent;z-index: -1;}
+.trans-pink-color-gradient-btn:after {position: absolute;top: 0;left: 0;content: '';width: 100%;height: 100%;opacity: 0;color: #FFFFFF !important;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286));background: -o-linear-gradient(left, #241654 -50%, #564286 93%);background: linear-gradient(to right, #241654 -50%, #564286 93%);border: solid 1px transparent;z-index: -1;}
 .trans-pink-color-gradient-btn:hover:after {opacity: 1;}
 .btn.trans-pink-color-gradient-btn:hover{border: 1px solid transparent;color: white;}
 
 /*Cart Drop Down First btn Gradient Button*/
 .pink-color-black-gradient-btn{font-size: 12px;font-family: 'Poppins', sans-serif;padding: 10px 25px;border: solid 1px #FFFFFF;color: #FFFFFF;font-weight: 600;background-color:#000000;border-radius: 0;position: relative;z-index: 2;}
-.pink-color-black-gradient-btn:after {position: absolute;top: 0;left: 0;content: '';width: 100%;height: 100%;opacity: 0;color: #FFFFFF !important;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad));background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%);background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%);border: solid 1px transparent;z-index: -1;}
+.pink-color-black-gradient-btn:after {position: absolute;top: 0;left: 0;content: '';width: 100%;height: 100%;opacity: 0;color: #FFFFFF !important;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286));background: -o-linear-gradient(left, #241654 -50%, #564286 93%);background: linear-gradient(to right, #241654 -50%, #564286 93%);border: solid 1px transparent;z-index: -1;}
 .pink-color-black-gradient-btn:hover:after {opacity: 1;}
 .btn.pink-color-black-gradient-btn:hover{color: #FFFFFF;border: 1px solid pink;}
 
 /*Gradient to color*/
 /*Registera Gradient Button Into Black*/
-.pink-gradient-btn-into-black{font-size: 12px;font-family: 'Poppins', sans-serif;padding: 10px 25px;border: solid 1px #FFFFFF;color: #FFFFFF;font-weight: 600;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad));background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%);background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%);border-radius: 0;position: relative;z-index: 2;}
+.pink-gradient-btn-into-black{font-size: 12px;font-family: 'Poppins', sans-serif;padding: 10px 25px;border: solid 1px #FFFFFF;color: #FFFFFF;font-weight: 600;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286));background: -o-linear-gradient(left, #241654 -50%, #564286 93%);background: linear-gradient(to right, #241654 -50%, #564286 93%);border-radius: 0;position: relative;z-index: 2;}
 .pink-gradient-btn-into-black:after {position: absolute;top: 0;left: 0;content: '';width: 100%;height: 100%;opacity: 0;color: #FFFFFF !important;background:#000000;border: solid 1px transparent;z-index: -1;}
 .pink-gradient-btn-into-black:hover:after {opacity: 1;}
 .btn.pink-gradient-btn-into-black:hover{color: #FFFFFF;border: 1px solid pink;}
 
-.pink-gradient-btn-into-transparent{font-size: 12px;font-family: 'Poppins', sans-serif;padding: 10px 25px;border: solid 1px #FFFFFF;color: #FFFFFF;font-weight: 600;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad));background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%);background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%);border-radius: 0;position: relative;z-index: 2;}
+.pink-gradient-btn-into-transparent{font-size: 12px;font-family: 'Poppins', sans-serif;padding: 10px 25px;border: solid 1px #FFFFFF;color: #FFFFFF;font-weight: 600;background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286));background: -o-linear-gradient(left, #241654 -50%, #564286 93%);background: linear-gradient(to right, #241654 -50%, #564286 93%);border-radius: 0;position: relative;z-index: 2;}
 .pink-gradient-btn-into-transparent:after {position: absolute;top: 0;left: 0;content: '';width: 100%;height: 100%;opacity: 0;color: #000000 !important;background-color:#FFFFFF;border: solid 1px #000000;z-index: -1;}
 .pink-gradient-btn-into-transparent:hover:after {opacity: 1;}
 .btn.pink-gradient-btn-into-transparent:hover{}
@@ -678,9 +678,9 @@ END scroll-top-arrow
 .product-listing-products .product-list .product-item .p-item-img .listing-cart-icon{
     position: absolute;
     z-index: 100;
-    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
-    background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286)) ;
+    background: -o-linear-gradient(left, #241654 -50%, #564286 93%) ;
+    background: linear-gradient(to right, #241654 -50%, #564286 93%) ;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -808,7 +808,7 @@ END scroll-top-arrow
 
 
 .manage-icons li:hover a.nav-link{
-    /*background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;*/
+    /*background: linear-gradient(to right, #241654 -50%, #564286 93%) ;*/
     /*-webkit-background-clip: text;*/
     /*-webkit-text-fill-color: transparent;*/
     color: deeppink;
@@ -1042,7 +1042,7 @@ END scroll-top-arrow
 }
 
 .outlet-media .media-body h6  a:hover{
-    color: #f11fad;
+    color: #564286;
 }
 
 
@@ -1077,9 +1077,9 @@ END scroll-top-arrow
 }
 
 .portfolio-section .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
-    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
-    background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286)) ;
+    background: -o-linear-gradient(left, #241654 -50%, #564286 93%) ;
+    background: linear-gradient(to right, #241654 -50%, #564286 93%) ;
     color: #fff;
     border: none;
 
@@ -1094,9 +1094,9 @@ END scroll-top-arrow
     z-index: 100;
     width: 50px;
     height: 50px;
-    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
-    background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286)) ;
+    background: -o-linear-gradient(left, #241654 -50%, #564286 93%) ;
+    background: linear-gradient(to right, #241654 -50%, #564286 93%) ;
     border-radius: 50%;
     top: 40%;
     left: 50%;
@@ -1151,7 +1151,7 @@ END scroll-top-arrow
 }
 
 .portfolio-des{
-    color:#f11fad !important;
+    color:#564286 !important;
     font-size: 20px !important;
     font-family: 'Poppins', sans-serif !important;
     margin-top: 6px !important;
@@ -1163,7 +1163,7 @@ END scroll-top-arrow
 }
 
 .portfolio-section .cbp .cbp-item:hover .portfolio-title{
-    color:#f11fad !important;
+    color:#564286 !important;
 }
 
 .portfolio-section .cbp .cbp-item:hover .portfolio-des{
@@ -1201,7 +1201,7 @@ END scroll-top-arrow
 .portfolio-section  .navigation-link-prev a,.portfolio-section  .navigation-link-next a{
     height: 40px;
     width: 40px;
-    /*background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;*/
+    /*background: linear-gradient(to right, #241654 -50%, #564286 93%) ;*/
     display: inline-block;
     text-align: center;
     padding-top: 1px;
@@ -1253,7 +1253,7 @@ END scroll-top-arrow
 /*banner section*/
 
 .banner-section{
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/IMG_1088.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1312,9 +1312,9 @@ END scroll-top-arrow
 .lastest_arrival_items .lastest-addto-cart{
     position: absolute;
     z-index: 100;
-    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
-    background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286)) ;
+    background: -o-linear-gradient(left, #241654 -50%, #564286 93%) ;
+    background: linear-gradient(to right, #241654 -50%, #564286 93%) ;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -1369,9 +1369,9 @@ END scroll-top-arrow
     width: 40px;
     height: 40px;
     color: white;
-    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
-    background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286)) ;
+    background: -o-linear-gradient(left, #241654 -50%, #564286 93%) ;
+    background: linear-gradient(to right, #241654 -50%, #564286 93%) ;
     top: 10px;
     left: 5px;
     border-radius: 50px;
@@ -1413,7 +1413,7 @@ END scroll-top-arrow
     margin-bottom: 5px;
 }
 .lastest_arrivals .lastest_arrival_items .card .card-body p{
-    color:#f11fad;
+    color:#564286;
     font-size: 14px;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
@@ -1423,7 +1423,7 @@ END scroll-top-arrow
 }
 
 .lastest_arrivals .lastest_arrival_items .card:hover .card-body h5 {
-    color: #f11fad !important;
+    color: #564286 !important;
 }
 
 .lastest_arrivals .lastest_arrival_items .card:hover .card-body p{
@@ -1445,9 +1445,9 @@ END scroll-top-arrow
 }
 
 .lastest_arrivals .lastest_featured_products .owl-dots .owl-dot.active{
-    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad)) ;
-    background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%) ;
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286)) ;
+    background: -o-linear-gradient(left, #241654 -50%, #564286 93%) ;
+    background: linear-gradient(to right, #241654 -50%, #564286 93%) ;
 }
 
 
@@ -1586,11 +1586,10 @@ END scroll-top-arrow
 }
 .footer .footer-container{
     border-bottom: dashed 3px #565659;
-    padding-bottom: 50px;
 }
 
 .footer_notes p{
-    padding-top: 50px;
+
     color: #888888;
 }
 
@@ -1820,9 +1819,9 @@ END scroll-top-arrow
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #FC2548), color-stop(93%, #f11fad));
-    background: -o-linear-gradient(left, #FC2548 -50%, #f11fad 93%);
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(-50%, #241654), color-stop(93%, #564286));
+    background: -o-linear-gradient(left, #241654 -50%, #564286 93%);
+    background: linear-gradient(to right, #241654 -50%, #564286 93%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

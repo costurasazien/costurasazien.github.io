@@ -1088,21 +1088,21 @@ a.dropdown-toggle::after {
 /*scroll bar styling*/
 
 ::-webkit-scrollbar-track {
-    background-color: #515252
+    background-color: #727474
 
 }
 
 ::-webkit-scrollbar {
     width: 7px;
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: linear-gradient(to right, #9F7BF6 -50%, #564286 93%) ;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: linear-gradient(to right, #9F7BF6 -50%, #564286 93%) ;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%) ;
+    background: linear-gradient(to right, #9F7BF6 -50%, #564286 93%) ;
 }
 
 
