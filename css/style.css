@@ -1253,11 +1253,10 @@ END scroll-top-arrow
 /*banner section*/
 
 .banner-section{
-    background-image: url("../img/IMG_1088.png");
+    background-image: url("../img/Banner11.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 100px;
     min-height: 150px;
 }
 
@@ -1272,10 +1271,10 @@ END scroll-top-arrow
     padding-bottom: 150px;
 }
 
-.banner-section .banner-content-wrapper span{
+.text-span{
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -1291,7 +1290,7 @@ END scroll-top-arrow
 .banner-section .banner-content-wrapper p{
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 5px;
 }
 
